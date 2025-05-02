@@ -14,3 +14,7 @@ type DB struct {
 	SSLMode  string
 	Port     string
 }
+
+func MustLoad() *Config {
+	return &Config{}
+}
